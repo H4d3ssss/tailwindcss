@@ -7,68 +7,99 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="p-6 font-mono text-sky-950">
-    <div>
-        <!--PROFILE PICTURE-->
-        <div class="border flex items-center space-x-4">
-            <img class="w-24 h-24 rounded-full ml-20 my-10" src="/src/barangay-captain.jpg" alt="User Profile Picture">
-            <div>
-                <h1 class="text-2xl font-bold">Juan Dela Cruz</h1>
-                <p class="text-stone-500">RESIDENT</p>
+<body class="p-6 font-mono text-sky-950 bg-gradient-to-b from-blue-100 to-white">
+    <div class="max-w-5xl mx-auto bg-white rounded-xl border">
+        <!-- PROFILE PICTURE AND BUTTON -->
+        <div class="flex flex-col md:flex-row items-center justify-between p-6">
+            <!-- Left Section: Image and Info -->
+            <div class="flex items-center space-x-4">
+                <img class="w-24 h-24 rounded-full shadow-md" src="/src/barangay-captain.jpg"
+                    alt="User Profile Picture">
+                <div>
+                    <h1 class="text-2xl font-bold">Juan Dela Cruz</h1>
+                    <p class="text-stone-500">RESIDENT</p>
+                </div>
+            </div>
+            <!-- Right Section: Button -->
+            <div class="mt-4 md:mt-0">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Edit Profile
+                </button>
             </div>
         </div>
-        <div>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Button
-            </button>
+
+        <!-- INFORMATION SECTIONS -->
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <!-- Personal Information -->
+            <div class="p-6">
+                <h1 class="text-lg font-bold mb-4 text-center md:text-left">Personal Information</h1>
+                <div class="space-y-4">
+                    <div>
+                        <h2 class="font-bold">First Name</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Middle Name</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Last Name</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Extension Name</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Birth Date</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Birth Place</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Gender</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Civil Status</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Occupation</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Classification Status</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Residency Status</h2>
+                        <p>Juan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="p-6">
+                <h1 class="text-lg font-bold mb-4 text-center md:text-left">Contact Information</h1>
+                <div class="space-y-4">
+                    <div>
+                        <h2 class="font-bold">Email</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Contact Number</h2>
+                        <p>Juan</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold">Address</h2>
+                        <p>Juan</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="text-center grid grid-cols-2 border font-bold">
-            <div>
-                <h1 class="text-lg">Personal Information</h1>
-            </div>
-            <div>
-                <h1 class="text-lg">Contact Information</h1>
-            </div>
-        </div>
-        <div class="grid grid-cols-2 border">
-            <!--PERSONAL INFORMATION-->
-            <div class="pl-5 pt-5 border">
-                <h2 class="font-bold">First Name</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Middle Name</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Last Name</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Extension Name</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Birth Date</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Birth Place</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Gender</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Civil Status</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Occupation</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Classification Status</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Residency Status</h2>
-                <p>Juan</p> <br>
-            </div>
-            <!--CONTACT INFORMATION-->
-            <div class="pl-5 pt-5 border">
-                <h2 class="font-bold">Email</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Contact Number</h2>
-                <p>Juan</p> <br>
-                <h2 class="font-bold">Address</h2>
-                <p>Juan</p> <br>
-            </div>
-            <div>
-            </div>
-        </div>
-        <!---->
     </div>
 </body>
 
